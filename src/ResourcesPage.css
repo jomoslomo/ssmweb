@@ -1,0 +1,21 @@
+.resources-page {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh; /* Optional: This ensures the content takes up at least the full viewport height */
+  }
+  
+  .resources-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .resources-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resources-page li {
+    margin-bottom: 10px;
+  }
+  

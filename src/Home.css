@@ -1,0 +1,46 @@
+/* Home.css */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; /* Remove default margin to prevent unwanted spacing */
+  }
+  
+  .home-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+  
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin-top: 0px; /* Increase the margin-top value to add more space */
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .home-content {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .home-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .home-footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  

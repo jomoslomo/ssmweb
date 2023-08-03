@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Use the common header styles */
+h1 {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 40px;
+  text-align: center;
+  margin-top: 0px; /* Increase the margin-top value to add more space */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Use the common content styles */
+p {
+  padding: 20px;
+  flex: 1;
+}
+
+/* Use the common footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Use the common footer link styles */
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
